@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DFBB06851AB9CACB0002FE91 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFBB06841AB9CACB0002FE91 /* libmp3lame.a */; };
 		DFC158971A8F39850032659C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC158961A8F39850032659C /* main.m */; };
 		DFC1589A1A8F39850032659C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC158991A8F39850032659C /* AppDelegate.m */; };
 		DFC1589D1A8F39850032659C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1589C1A8F39850032659C /* ViewController.m */; };
@@ -14,6 +15,12 @@
 		DFC158A21A8F39850032659C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC158A11A8F39850032659C /* Images.xcassets */; };
 		DFC158A51A8F39850032659C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFC158A31A8F39850032659C /* LaunchScreen.xib */; };
 		DFC158B11A8F39850032659C /* AudioDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC158B01A8F39850032659C /* AudioDemoTests.m */; };
+		DFC158BB1A8F3B280032659C /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC158BA1A8F3B280032659C /* CoreFoundation.framework */; };
+		DFC158BD1A8F3B300032659C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC158BC1A8F3B300032659C /* AVFoundation.framework */; };
+		DFC158BF1A8F3B3F0032659C /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC158BE1A8F3B3F0032659C /* CoreAudio.framework */; };
+		DFC158C11A8F3B7C0032659C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC158C01A8F3B7C0032659C /* CoreGraphics.framework */; };
+		DFC158C31A8F3B840032659C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC158C21A8F3B840032659C /* UIKit.framework */; };
+		DFC158C51A8F3B8B0032659C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC158C41A8F3B8B0032659C /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DFBB06831AB9CACB0002FE91 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		DFBB06841AB9CACB0002FE91 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
 		DFC158911A8F39850032659C /* AudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC158951A8F39850032659C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFC158961A8F39850032659C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +49,12 @@
 		DFC158AA1A8F39850032659C /* AudioDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFC158AF1A8F39850032659C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFC158B01A8F39850032659C /* AudioDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioDemoTests.m; sourceTree = "<group>"; };
+		DFC158BA1A8F3B280032659C /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DFC158BC1A8F3B300032659C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DFC158BE1A8F3B3F0032659C /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		DFC158C01A8F3B7C0032659C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DFC158C21A8F3B840032659C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DFC158C41A8F3B8B0032659C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +62,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC158C51A8F3B8B0032659C /* Foundation.framework in Frameworks */,
+				DFC158C31A8F3B840032659C /* UIKit.framework in Frameworks */,
+				DFC158C11A8F3B7C0032659C /* CoreGraphics.framework in Frameworks */,
+				DFC158BF1A8F3B3F0032659C /* CoreAudio.framework in Frameworks */,
+				DFC158BD1A8F3B300032659C /* AVFoundation.framework in Frameworks */,
+				DFC158BB1A8F3B280032659C /* CoreFoundation.framework in Frameworks */,
+				DFBB06851AB9CACB0002FE91 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +82,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DFBB06861AB9CAD20002FE91 /* lame */ = {
+			isa = PBXGroup;
+			children = (
+				DFBB06831AB9CACB0002FE91 /* lame.h */,
+				DFBB06841AB9CACB0002FE91 /* libmp3lame.a */,
+			);
+			name = lame;
+			sourceTree = "<group>";
+		};
 		DFC158881A8F39850032659C = {
 			isa = PBXGroup;
 			children = (
+				DFC158C61A8F3DBB0032659C /* framework */,
 				DFC158931A8F39850032659C /* AudioDemo */,
 				DFC158AD1A8F39850032659C /* AudioDemoTests */,
 				DFC158921A8F39850032659C /* Products */,
@@ -96,6 +128,7 @@
 		DFC158941A8F39850032659C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DFBB06861AB9CAD20002FE91 /* lame */,
 				DFC158951A8F39850032659C /* Info.plist */,
 				DFC158961A8F39850032659C /* main.m */,
 			);
@@ -117,6 +150,19 @@
 				DFC158AF1A8F39850032659C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DFC158C61A8F3DBB0032659C /* framework */ = {
+			isa = PBXGroup;
+			children = (
+				DFC158C41A8F3B8B0032659C /* Foundation.framework */,
+				DFC158C21A8F3B840032659C /* UIKit.framework */,
+				DFC158C01A8F3B7C0032659C /* CoreGraphics.framework */,
+				DFC158BE1A8F3B3F0032659C /* CoreAudio.framework */,
+				DFC158BC1A8F3B300032659C /* AVFoundation.framework */,
+				DFC158BA1A8F3B280032659C /* CoreFoundation.framework */,
+			);
+			name = framework;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +391,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AudioDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioDemo",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -355,6 +405,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AudioDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AudioDemo",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -412,6 +466,7 @@
 				DFC158B61A8F39850032659C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DFC158B71A8F39850032659C /* Build configuration list for PBXNativeTarget "AudioDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +475,7 @@
 				DFC158B91A8F39850032659C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
